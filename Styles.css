@@ -1,0 +1,22 @@
+.container {
+    width: 800px; /* Ajuste conforme necessário */
+    height: 800px; /* Ajuste conforme necessário */
+    overflow: hidden; /* Para manter a imagem dentro do container */
+}
+
+.imagem {
+    position: relative;
+    left: 0;
+    animation: moverImagem 5s linear infinite;
+}
+7
+@keyframes moverImagem {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+
